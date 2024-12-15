@@ -16,7 +16,7 @@ class WordsFinder:
                            clear=clear.replace(punct,'')
                     word_list.append(clear)
             self.all_words[key]=word_list
-       print(self.all_words)
+       return self.all_words
 
 
     def find(self, word:str)->dict:
